@@ -25,13 +25,29 @@ This Jekyll starter kit requires Jekyll 2.x.
 
 1. Install bundler with `gem install bundler` then install Jekyll and all its dependencies with `gem install jekyll`.
 
-2. Create a directory for your site with `mkdir my-new-site` and navigate into it with `cd my-new-site`.
+2. Clone this repository with `git clone git://github.com/chloeam/jekyll-starter.git`
 
-3. Clone this repository with `git clone git://github.com/chloeam/jekyll-starter.git`
+3. Rename the directory `jekyll-starter` to the name of your new site
 
-4. Edit `_config.yml` to personalize the site
+4. `cd your-site-folder`
 
-5. Run jekyll with `jekyll serve`. The site will be available locally at [http://localhost:8000](http://localhost:8000)
+5. Edit `_config.yml` to personalize the site
+
+6. Run jekyll with `jekyll serve`. The site will be available locally at [http://localhost:8000](http://localhost:8000)
+
+### Adding Your Own Remote Repository
+
+At this point, you've cloned this entire repository, including the remote and commit history. To add your own remote,
+
+1. Delete the current remote with `git remote rm origin`
+
+2. Start a new repo on github
+
+3. Run `git remote add origin https//github.com/user/repo.git`
+
+4. Run `git push -u origin master`
+
+Now, you have your own remote set up!
 
 ### Setup Disqus Comments
 
